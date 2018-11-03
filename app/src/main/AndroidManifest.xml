@@ -18,9 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    <activity
-        android:name=".MainActivity"
-        android:theme="@style/Theme.Intro">
-    </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Intro">
+        </activity>
     </application>
 </manifest>

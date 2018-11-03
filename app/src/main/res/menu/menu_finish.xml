@@ -22,24 +22,10 @@
   ~ SOFTWARE.
   -->
 
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="@dimen/mi_baseline"
-        android:background="@color/color_canteen"
-        tools:context="org.zamolxis.civicmed.SplashActivity">
-
-        <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:src="@drawable/logo_mic"
-            android:contentDescription="@string/app_name" />
-
-    </LinearLayout>
-
-</layout>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_reset_first_start"
+        android:title="@string/title_menu_reset_first_start"
+        app:showAsAction="never" />
+</menu>
