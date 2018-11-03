@@ -1,3 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Jan Heinrich Reimer
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
 <resources>
-    <string name="app_name">CivicMed</string>
+    <string name="app_name">Civic Med</string>
+
+    <string name="title_menu_github">View on GitHub</string>
+    <string name="title_menu_reset_first_start">Reset "First start" flag</string>
+
+    <string name="label_options">Options:</string>
+    <string name="label_option_fullscreen">Enable fullscreen</string>
+    <string name="label_option_scrollable">Scrollable slides</string>
+    <string name="label_option_custom_fragments">Enable custom fragments</string>
+    <string name="label_option_permissions">Enable permission request</string>
+    <string name="label_option_show_back">Show back button</string>
+    <string name="label_option_show_next">Show next button</string>
+    <string name="label_option_skip_enabled">Enable skip button</string>
+    <string name="label_option_finish_enabled">Enable finish button</string>
+    <string name="label_option_get_started_enabled">Enable \"Get Started\" button</string>
+    <string name="label_start_intro">Start intro</string>
+    <string name="label_or">or</string>
+    <string name="label_demos">Demos: </string>
+    <string name="label_start_canteen">\"Canteen\" intro</string>
+    <string name="label_start_splash">Splash screen</string>
+
+    <string name="title_material_metaphor">Material is the metaphor</string>
+    <string name="title_material_protect">Suntem aici ca să te protejăm</string>
+    <string name="title_material_motion">Motion provides meaning</string>
+    <string name="title_material_shadow">Light and shadow</string>
+
+    <string name="description_material_metaphor">A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</string>
+    <string name="description_material_portal">Acesta este portalul atacurilor cibernetice din România.</string>
+    <string name="description_material_motion">Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</string>
+    <string name="description_material_shadow">Within the material environment, virtual lights illuminate the scene. Key lights create directional shadows, while ambient light creates soft shadows from all angles.</string>
+
+    <string name="title_permissions">Requesting permissions was never easier.</string>
+    <string name="description_permissions">This app needs the camera and storage permission.\nIt\'s only to show how permission requests work in this library and we won\'t do anything with the granted permissions.</string>
+    <string name="label_grant_permissions">Please grant the permissions before proceeding.</string>
+
+    <string name="label_button_cta">Click me!</string>
+    <string name="toast_button_cta">Hey, that\'s how custom CTA buttons work in material-intro!</string>
+
+    <string name="title_fragment_login">Log In.</string>
+    <string name="hint_fake_username">Username</string>
+    <string name="hint_fake_password">Parolă</string>
+    <string name="label_fake_login">Login</string>
+    <string name="label_fake_login_loading">Procesare…</string>
+    <string name="label_fake_login_success">Logged in ☺</string>
+    <string name="label_fake_login_success_message">Înregistrat cu succes.</string>
+    <string name="label_fill_out_form">Please fill out the form before proceeding.</string>
+
+    <string name="title_fragment_custom">Take off!</string>
+
+    <string name="label_activity_finish">Nothing here…\n…just a demo how to create a splash screen intro.</string>
+
+    <string name="title_canteen_intro1" translatable="false">Raportează orice atac cibernetic</string>
+    <string name="title_canteen_intro2" translatable="false">Cash on delivery</string>
+    <string name="title_canteen_intro3" translatable="false">Choose what you like</string>
+    <string name="description_protect" translatable="false">Pentru a putea continua trebuie sa fii de acord cu permisiile.</string>
+    <string name="description_canteen_intro2" translatable="false">Order and we\'ll deliver the menu right in front of your door.</string>
+    <string name="description_canteen_intro3" translatable="false">Bookmark a menu you wanted to save and keep track of its status whether it\'s available or not.</string>
+    <string name="label_button_cta_canteen_intro" translatable="false">Get started</string>
+
+    <string name="hello_blank_fragment">This is the main fragment</string>
+
+    <string name="label_report">Raportează</string>
+    <string name="label_news">Știri</string>
+
+    <string name="eula">Accept</string>
+    <string name="eula_title">Procesarea datelor</string>
+    <string name="eula_error">Trebuie să acceptați procesarea datelor</string>
+    <string name="eula_details">Vă rugăm acceptați procesarea datelor introduse pentru a continua</string>
+
+    <string name="email">E-mail </string>
+    <string name="email_error">Empty or not well-formed</string>
+    <string name="email_details">Your e-mail will be used as your login. Type the one you use most often.</string>
+
+    <string name="password">Password</string>
+    <string name="password_error">Empty or not 5-chars long</string>
+    <string name="password_details">Type your own password (5-chars long). Your personal information is protected with this password.</string>
+
+    <string name="birthday">Data incidentului</string>
+    <string name="birthday_error">You must be at least 14.</string>
+    <string name="birthday_details">Vom folosi data atacului pentru o căutare amănunțită.</string>
+
+    <string name="height">Body height</string>
+    <string name="height_error">You must be at least 160cm tall.</string>
+    <string name="height_details">Just another fake input (taller than 160cm).</string>
+
+    <string name="city">Locația</string>
+    <string name="city_error">Introdu informații despre locația incidentului</string>
+    <string name="city_details">Vom folosi adresa pentru localizarea precisă a incidentului.</string>
+
+    <string name="finished">Formular completat cu succes!</string>
+
+    <array name="menuOptions">
+        <item>Feed</item>
+        <item>Raportările mele</item>
+        <item>Setări</item>
+        <item>Despre Hackout</item>
+        <item>Log In/Sign Up</item>
+    </array>
+
 </resources>

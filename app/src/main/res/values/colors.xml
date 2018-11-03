@@ -1,6 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2017 Jan Heinrich Reimer
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="color_primary">#615f5f</color>
+    <color name="color_primary_dark">#4c4d4e</color>
+    <color name="color_accent">#00E676</color>
+
+    <color name="color_material_metaphor">#039BE5</color>
+    <color name="color_material_bold">#EC407A</color>
+    <color name="color_material_motion">#6A1B9A</color>
+    <color name="color_material_shadow">#E0E0E0</color>
+    <color name="color_permissions">#FFEB3B</color>
+    <color name="color_custom_fragment_1">#fdfdfd</color>
+    <color name="color_custom_fragment_2">#3F51B5</color>
+    <color name="color_canteen">#fdfdfd</color>
+
+    <color name="color_dark_material_metaphor">#0277BD</color>
+    <color name="color_dark_material_bold">#D81B60</color>
+    <color name="color_dark_material_motion">#4A148C</color>
+    <color name="color_dark_material_shadow">#BDBDBD</color>
+    <color name="color_dark_permissions">#FBC02D</color>
+    <color name="color_dark_custom_fragment_1">#BF360C</color>
+    <color name="color_dark_custom_fragment_2">#303F9F</color>
+    <color name="color_dark_canteen">#ebeef0</color>
+
+    <color name="material_black_87">#de000000</color>
+    <color name="material_black_54">#8a000000</color>
+    <color name="material_black_26">#42000000</color>
+
+    <color name="material_white_87">#deffffff</color>
+    <color name="material_white_26">#42ffffff</color>
+
+    <color name="material_light_green_500">#8BC34A</color>
+    <color name="material_light_green_700">#689F38</color>
+    <color name="material_amber_a200">#FFD740</color>
+
+    <color name="material_indigo_500">#3F51B5</color>
+    <color name="material_indigo_700">#303F9F</color>
+    <color name="material_deep_purple_a200">#7C4DFF</color>
+
+    <color name="material_bordeaux_500">#992044</color>
+    <color name="material_bordeaux_700">#67132B</color>
+    <color name="material_bordeaux_800">#561529</color>
+    <color name="material_orange_a200">#FFAB40</color>
+
+
+
+    <color name="custom_text_field_background_color">#992044</color>
+    <color name="custom_progress_background_color">#67132B</color>
+
+    <color name="custom_title_text_color">#561529</color>
+    <color name="custom_details_text_color">#561529</color>
+    <color name="custom_input_text_color">@android:color/white</color>
+    <color name="custom_error_text_color">#561529</color>
 </resources>
